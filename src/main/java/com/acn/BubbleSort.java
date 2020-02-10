@@ -23,10 +23,6 @@ public class BubbleSort implements ISort{
 				}
 			}
 
-//			if(sortType == SortType.DESC) {
-//				Arrays.reverse(unsortedArray);
-//			}
-			
 		return unsortedArray;
 	}
 }

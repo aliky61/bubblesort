@@ -1,1 +1,3 @@
-com\acn\App.class
+com\acn\SortType.class
+com\acn\BubbleSort.class
+com\acn\ISort.class

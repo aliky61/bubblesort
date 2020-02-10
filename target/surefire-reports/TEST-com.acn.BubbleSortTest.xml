@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.acn.AppTest" time="0.069" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.acn.BubbleSortTest" time="0.071" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\dev\bubblesort\target\test-classes;C:\dev\bubblesort\target\classes;C:\environment\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\environment\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\dev\bubblesort\target\test-classes;C:\dev\bubblesort\target\classes;C:\environment\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\environment\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\environment\maven\repository\org\springframework\spring-context\5.2.0.RELEASE\spring-context-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-aop\5.2.0.RELEASE\spring-aop-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-beans\5.2.0.RELEASE\spring-beans-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-core\5.2.0.RELEASE\spring-core-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-jcl\5.2.0.RELEASE\spring-jcl-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-expression\5.2.0.RELEASE\spring-expression-5.2.0.RELEASE.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -19,8 +19,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\AD75A~1.KAY\AppData\Local\Temp\surefire5897426957126960341\surefirebooter5307759551995234541.jar C:\Users\a.kaya\AppData\Local\Temp\surefire5897426957126960341 2020-02-10T14-27-53_943-jvmRun1 surefire5393183274630838693tmp surefire_07223935275401186624tmp"/>
-    <property name="surefire.test.class.path" value="C:\dev\bubblesort\target\test-classes;C:\dev\bubblesort\target\classes;C:\environment\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\environment\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\AD75A~1.KAY\AppData\Local\Temp\surefire3890484719727838331\surefirebooter5176307383946182723.jar C:\Users\a.kaya\AppData\Local\Temp\surefire3890484719727838331 2020-02-10T17-18-55_610-jvmRun1 surefire4847664886525258120tmp surefire_02076379169090938566tmp"/>
+    <property name="surefire.test.class.path" value="C:\dev\bubblesort\target\test-classes;C:\dev\bubblesort\target\classes;C:\environment\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\environment\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\environment\maven\repository\org\springframework\spring-context\5.2.0.RELEASE\spring-context-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-aop\5.2.0.RELEASE\spring-aop-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-beans\5.2.0.RELEASE\spring-beans-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-core\5.2.0.RELEASE\spring-core-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-jcl\5.2.0.RELEASE\spring-jcl-5.2.0.RELEASE.jar;C:\environment\maven\repository\org\springframework\spring-expression\5.2.0.RELEASE\spring-expression-5.2.0.RELEASE.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\a.kaya"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\AD75A~1.KAY\AppData\Local\Temp\surefire5897426957126960341\surefirebooter5307759551995234541.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AD75A~1.KAY\AppData\Local\Temp\surefire3890484719727838331\surefirebooter5176307383946182723.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_212\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,5 +62,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.acn.AppTest" time="0.003"/>
+  <testcase name="shouldDoNothingWithEmptyArray" classname="com.acn.BubbleSortTest" time="0.005"/>
+  <testcase name="shouldDoNothingWithOneElementArray" classname="com.acn.BubbleSortTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalArgumentException" classname="com.acn.BubbleSortTest" time="0.009">
+    <failure message="Expected exception: java.lang.IllegalArgumentException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException
+</failure>
+  </testcase>
+  <testcase name="shouldSortValuesASC" classname="com.acn.BubbleSortTest" time="0"/>
+  <testcase name="shouldSortValuesDESC" classname="com.acn.BubbleSortTest" time="0"/>
 </testsuite>
