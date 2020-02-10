@@ -2,7 +2,7 @@ package com.acn;
 
 public class BubbleSort {
 
-	public static int[] bubblesort(int[] unsortedArray) {
+	public int[] bubblesort(int[] unsortedArray) {
 		int temp;
 		for (int i = 1; i < unsortedArray.length; i++) {
 			for (int j = 0; j < unsortedArray.length - i; j++) {
